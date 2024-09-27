@@ -18,3 +18,6 @@
 .section-two h1{
     text-align: center;
 }
+.py-2 bg-body-tertiary border-bottom{
+    color:red;
+}
