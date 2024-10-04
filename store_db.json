@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Кавун Леді",
+        "price":  40,
+        "image": "https://parcel.com.ua/image/cache/catalog/image/cache/catalog/semena/semena-ovoshchey/semena-arbuzov/tm-leda/4473-1150x1150.webp",
+        "description": "М’якоть яскраво-червона, ніжної структури, солодка, хрустка, без волокон."
+    },
+    {
+        "title": "Кавун Красень",
+        "price":  50,
+        "image": "https://dobrodar.ua/uploads/files/Products/Product_images_25841/9754e3.jpg",
+        "description": "М'якуш Яскрава-червоного кольору, зерниста, ніжний,Соковита та солодкий. Смакові якості відмінні."
+    },
+    {
+        "title": "Оранж Кінг F1",
+        "price":  60,
+        "image": "https://gryadka.in.ua/content/images/26/480x480l50nn0/92932544320041.jpeg",
+        "description": "М'якоть яскраво-жовта, ніжна, без прожилок і пирот, дуже солодка та соковита."
+    },
+    {
+        "title": "Кавун Шуга Єллоу F1",
+        "price":  65,
+        "image": "https://vesnodar.com.ua/image/cache/catalog/products/kavun/Sugar-Elloy/Sugar-Elloy2-700x700.jpeg",
+        "description": "М'якоть сладка та сочна, упруга й ароматна."
+    },
+    {
+        "title": "Чарльстон Грей",
+        "price":  50,
+        "image": "https://vesnodar.com.ua/image/cache/catalog/products/semena-arbuza-charleston-gray-700x700.jpg",
+        "description": "Сорт привертає яскраво-рожевою соковитою м'якоттю, деякі екземпляри кавунів важать 12-15 кілограмів."
+    },
+    {
+        "title": "Кавун Сніжок",
+        "price":  60,
+        "image": "https://florium.ua/media/catalog/product/cache/1/file/9df78eab33525d08d6e5fb8d27136e95/f/i/file_232_21.jpg",
+        "description": " М'якоть яскравого червоного або темно-рожевого кольору, зерниста, дуже солодка і соковита."
+    }
+]
