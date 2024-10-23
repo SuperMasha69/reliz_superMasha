@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         passwordInput.style.border = "2px solid rgb(28, 193, 28)";
         confirmPasswordInput.style.border = "2px solid rgb(28, 193, 28)";
         passwordError.textContent = "Паролі мають співпадати";
+        
         passwordError.style.display = "block";
       } else {
         console.log("Паролі співпадають");
