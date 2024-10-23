@@ -38,8 +38,7 @@
     padding: 10px;
     border-radius: 20px;
     color: rgb(255, 255, 255);
-    background-color: #2b0081;
-    border: 2px solid rgb(57, 54, 41);
+    background-color: #ff4552;
     transition: background .2s linear;
     width: 450px;
     text-align: center;
@@ -47,7 +46,7 @@
   }
   
   .my-card:hover{
-    background-color: #418EE9;
+    background-color: #e31919;
   }
   
   .my-card  img{
@@ -61,7 +60,7 @@
     text-align: center;
     border-radius: 40px;
     padding: 5px;
-    background-color: rgb(62, 143, 209) ;
+    background-color: rgb(255, 27, 27) ;
     margin-bottom: 20px;
     margin-right: 10px;
     margin-left: 10px;
@@ -77,5 +76,18 @@
   .all-carts-1 {
     padding: 30px 0;
   }
+
+
   
+.accordion-button {
+  background-color: rgb(30, 138, 30);
+}
+
+.accordion-item{
+  background-color: rgb(209, 90, 90);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(28, 193, 28); 
   
+}
