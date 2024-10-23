@@ -7,3 +7,18 @@ footer{
     margin-top: 50px;
 }
 
+body{
+    background-color: rgb(204, 23, 29);
+    color: #ffffff;
+}
+.register-btn{
+    background-color: rgb(247, 117, 117);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+.register-btn:hover{
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}

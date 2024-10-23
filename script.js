@@ -1,4 +1,26 @@
 
+// Функція для отримання значення кукі за ім'ям
+function getCookieValue(cookieName) {
+    // Розділяємо всі куки на окремі частини
+    const cookies = document.cookie.split(';');
+
+    // Шукаємо куки з вказаним ім'ям
+    for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim(); // Видаляємо зайві пробіли
+
+        // Перевіряємо, чи починається поточне кукі з шуканого імені
+        if (cookie.startsWith(cookieName + '=')) {
+            // Якщо так, повертаємо значення кукі
+            return cookie.substring(cookieName.length + 1); // +1 для пропуску символу "="
+        }
+    }
+    // Якщо кукі з вказаним іменем не знайдено, повертаємо порожній рядок або можна повернути null
+    return '';
+}
+
+
+
+
 // Отримуємо дані про товари з JSON файлу
 async function getProducts() {
     let response = await fetch("store_db.json");
@@ -58,6 +80,7 @@ cartBtn.addEventListener("click", function () {
     window.location.assign('cart.html')
 })
 
+
 // Отримуємо кнопку "Реєстрація" 
 let registerBtn = document.querySelector('.registration-icon');
 
@@ -68,7 +91,6 @@ if (registerBtn) {
         window.location.assign('registration.html');
     });
 }
-
 
 
 // Створення класу кошика
@@ -144,10 +166,12 @@ let cart = new ShoppingCart();
 // Функція для додавання товару до кошика при кліку на кнопку "Купити"
 function addToCart(event) {
     // Отримуємо дані про товар з data-атрибута кнопки
-    const productData = event.target.getAttribute('data-product');
+    const productData = event.currentTarget.getAttribute('data-product');
+
     const product = JSON.parse(productData);
 
     // Додаємо товар до кошика
     cart.addItem(product);
     console.log(cart);
 }
+
